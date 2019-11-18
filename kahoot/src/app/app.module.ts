@@ -14,6 +14,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { UpbarComponent } from './components/upbar/upbar.component';
 import { MenuService } from './components/menu/menu.service';
 import { PainelAlunoComponent } from './painel-aluno/painel-aluno.component';
+import { QuestoesCursoComponent } from './questoes-curso/questoes-curso.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PainelAlunoComponent } from './painel-aluno/painel-aluno.component';
     CriarCursoComponent,
     MenuComponent,
     UpbarComponent,
-    PainelAlunoComponent
+    PainelAlunoComponent,
+    QuestoesCursoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { QuestoesCursoComponent } from './questoes-curso/questoes-curso.component';
 
 import { PainelAlunoComponent } from './painel-aluno/painel-aluno.component';
 import { CriarCursoComponent } from './criar-curso/criar-curso.component';
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'ranking', component: RankingComponent },
   { path: 'criar-curso', component: CriarCursoComponent },
   { path: 'painel-aluno', component: PainelAlunoComponent },
-  { path: 'curso', component: CursoComponent }
+  { path: 'curso', component: CursoComponent },
+  {path: 'questoes-curso', component: QuestoesCursoComponent}
 
 ];
 

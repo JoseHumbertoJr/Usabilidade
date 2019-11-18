@@ -106,3 +106,8 @@ a:hover{
 .modal-content{
     padding: 25px;
 }
+#voltar{
+    color:#4633FF !important;
+    margin-left: 5%;
+    font-family: 'Nunito', sans-serif;
+}

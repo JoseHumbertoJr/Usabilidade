@@ -259,3 +259,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 #icon {
   width:60%;
 }
+.btn-light{
+  background-color: #4267b2;
+  color: white;
+}
